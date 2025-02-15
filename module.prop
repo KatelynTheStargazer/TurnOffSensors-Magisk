@@ -1,0 +1,6 @@
+id=com.katelyn.magisk.TurnOffSensors
+name=Turn Off Sensors
+version=1.0
+versionCode=1
+author=katelyn (trans rights)
+description=Automatically turn off device sensors on boot
