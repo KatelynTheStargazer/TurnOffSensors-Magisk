@@ -1,13 +1,7 @@
 #!/system/bin/sh
 MODDIR=${0%/*}
 
-wait_for_boot() {
-    while [ "$(getprop sys.boot_completed)" != "1" ]; do
-        sleep 1
-    done
-}
-
-wait_for_boot
+sleep 8
 
 ANDROID_VERSION=$(getprop ro.build.version.release)
 
