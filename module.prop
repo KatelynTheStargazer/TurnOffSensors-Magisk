@@ -4,3 +4,4 @@ version=1.0
 versionCode=1
 author=katelyn (trans rights)
 description=Automatically turn off device sensors on boot
+updateJson=https://raw.github.com/KatelynTheStargazer/TurnOffSensors-Magisk/blob/main/update.json
