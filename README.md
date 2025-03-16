@@ -2,7 +2,7 @@
 
 Disables device sensors on startup via the sensor_privacy service on Android (see: [source.android.com](https://source.android.com/docs/core/interaction/sensors/sensors-off))
 
-Tested: Android 10 to Android 16 beta (All builds as of 2/15/2025)
+Tested: Android 10 to Android 16 beta (All builds as of 3/16/2025)
 
 Note: This will not work on Android Builds older than Android 10 due to the sensor_privacy service being nonexistant.
 
