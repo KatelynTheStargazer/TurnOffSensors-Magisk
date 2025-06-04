@@ -1,6 +1,6 @@
 #!/system/bin/sh
 
-while [ "$(getprop init.svc.vendor.sensors-hal-multihal)" != "running" ]; do
+while ! service list | grep -q sensor_privacy; do
   sleep 0.1
 done
 
