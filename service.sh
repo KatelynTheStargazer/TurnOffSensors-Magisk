@@ -6,7 +6,7 @@ done
 
 ANDROID_VERSION=$(getprop ro.build.version.release)
 case "$ANDROID_VERSION" in
-  13|14|15|16)
+  13|14|15|16|17)
     service call sensor_privacy 9 i32 1
     ;;
   12)
