@@ -1,6 +1,6 @@
 id=TurnOffSensors
 name=Turn Off Sensors
-version=1.02
+version=1.03
 versionCode=3
 author=adalyn (trans rights)
 description=Automatically turn off device sensors on boot
